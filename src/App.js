@@ -1,24 +1,23 @@
-import logo from './logo.svg';
+import logo from './assets/matt.svg';
+import React from 'react';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import PortfolioContainer from './components/PortfolioContainer';
+import HomeHero from './components/HomeHero';
+import PastBlock from './components/PastBlock';
+import ProjectContainer from './components/ProjectContainer';
 
-function App() {
+function App(content) {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <PortfolioContainer
+      content={
+        <>
+          <HomeHero />
+          <PastBlock />
+          <ProjectContainer />
+        </>
+      }
+    />
   );
 }
 
