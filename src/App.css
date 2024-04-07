@@ -1,38 +1,151 @@
-.App {
+@font-face {
+  font-family: 'TT Commons';
+  font-style: normal;
+  font-weight: normal;
+  src:
+    local('TT Commons'),
+    url('./fonts/TT\ Commons\ Regular.otf') format('opentype');
+}
+
+body {
+  font-family: 'TT Commons', sans-serif !important;
+  background-color: #111520 !important;
+}
+
+nav {
+  background-color: #111520;
+}
+
+nav div {
+  padding: 16px;
+  justify-content: space-between !important;
+  margin-left: 64px !important;
+  margin-right: 64px !important;
+}
+
+@media (min-width: 500px) {
+  nav div {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+
+.nav-link {
+  color: #f2f5f8 !important;
+}
+
+.nav-link.active {
+  color: blue !important;
+}
+
+nav .me-auto {
+  margin-right: 0px !important;
+}
+
+.hero-header {
+  font-size: 64px;
+  font-weight: 800;
+  color: #f2f5f8;
+}
+
+.hero-subtext {
+  font-size: 24px;
+  color: #f2f5f8;
+}
+
+.row {
+  padding-left: 64px !important;
+  padding-right: 64px !important;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  margin-bottom: 64px;
+}
+
+.colortext {
+  color: #287dfc;
+}
+
+.past-block {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 80px;
+}
+
+.hero-row svg {
+  transform: translate3d(0px, 40px, 0px);
+  height: 500px !important;
+}
+
+.past-header {
+  font-size: 64px;
+  font-weight: 800;
   text-align: center;
+  color: #f2f5f8;
+  margin-bottom: 40px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.past-img {
+  height: 40px;
+  width: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.past-img-container {
+  justify-content: space-evenly;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.hero-row svg {
+  height: 500px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.hero-text-container {
+  height: fit-content;
+}
+
+.card-image {
+  position: relative;
+  margin-top: -10vw;
+}
+
+.card-container {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  margin-top: 64px;
+}
+
+.section-header {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #287dfc;
+}
+
+.project-container-row svg {
+  height: 400px !important;
+  width: auto !important;
+}
+
+.card-title {
+  color: #f2f5f8 !important;
+  font-size: 32px !important;
+}
+
+.card-text {
+  color: #f2f5f8 !important;
+  font-size: 24px !important;
+}
+
+.absolute-animation svg {
+  position: absolute;
+  right: 0;
+  height: 400px !important;
+  width: auto !important;
+  top: 1190px;
+}
+
+@media (max-width: 800px) {
+  .absolute-animation svg {
+    height: 250px !important;
+    width: auto !important;
+    top: 1600px;
   }
 }
