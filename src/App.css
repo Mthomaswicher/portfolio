@@ -86,6 +86,7 @@ nav .me-auto {
 .past-img {
   height: 40px;
   width: auto;
+  margin: 20px;
 }
 
 .past-img-container {
@@ -148,4 +149,22 @@ nav .me-auto {
     width: auto !important;
     top: 1600px;
   }
+}
+
+@media (max-width: 1200px) {
+  .absolute-animation svg {
+    height: 250px !important;
+    width: auto !important;
+    top: 1300px;
+  }
+}
+
+.typewriter {
+  color: white;
+  font-size: 64px;
+}
+
+.typewriter:after {
+  content: ' Matt 👋🏽';
+  color: #287dfc;
 }

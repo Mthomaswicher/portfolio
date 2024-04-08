@@ -23,9 +23,7 @@ const ProjectContainer = () => {
       <Row>
         <h1 className="section-header">My Recent Projects</h1>
       </Row>
-      <div className="absolute-animation">
-        <Lottie options={defaultOptions} />
-      </div>
+      <div className="absolute-animation"></div>
       <Row className="project-container-row">
         <Container>
           <Row>
