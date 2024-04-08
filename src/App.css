@@ -7,6 +7,10 @@
     url('./fonts/TT\ Commons\ Regular.otf') format('opentype');
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'TT Commons', sans-serif !important;
   background-color: #111520 !important;
@@ -69,6 +73,7 @@ nav .me-auto {
   padding-left: 64px !important;
   padding-right: 64px !important;
   padding-bottom: 64px;
+  padding-top: `6px;
 }
 
 @media (max-width: 990px) {
@@ -84,12 +89,8 @@ nav .me-auto {
 
 .past-block {
   background-color: rgba(255, 255, 255, 0.1);
-  padding: 80px;
-}
-
-.hero-row svg {
-  transform: translate3d(0px, 40px, 0px);
-  height: 500px !important;
+  padding-top: 64px;
+  margin-bottom: 64px;
 }
 
 @media (max-width: 500px) {
@@ -114,7 +115,8 @@ nav .me-auto {
 
 @media (max-width: 500px) {
   .past-img {
-    height: 24px !important;
+    height: auto !important;
+    width: 72px !important;
   }
 }
 
@@ -130,14 +132,8 @@ nav .me-auto {
 }
 
 .past-img-container {
-  justify-content: space-evenly;
+  justify-content: center;
   display: flex;
-}
-
-@media (max-width: 990px) {
-  .past-img-container {
-    display: grid;
-  }
 }
 
 .img-holder {
@@ -145,11 +141,13 @@ nav .me-auto {
 }
 
 .hero-row svg {
-  height: 500px;
+  width: 500px;
+  height: auto;
 }
 
 .hero-text-container {
   height: fit-content;
+  padding-top: 64px;
 }
 
 .card-image {
@@ -185,10 +183,6 @@ nav .me-auto {
   font-size: 24px !important;
 }
 
-.absolute-animation svg {
-  position: absolute;
-  right: 0;
-  height: 400px !important;
-  width: auto !important;
-  top: 1190px;
+.navbar-toggler:focus {
+  box-shadow: none !important;
 }
