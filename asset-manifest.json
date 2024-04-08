@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.32c551a0.css",
-    "main.js": "/portfolio/static/js/main.3d78b7e0.js",
+    "main.css": "/portfolio/static/css/main.0f8ce521.css",
+    "main.js": "/portfolio/static/js/main.17854a89.js",
     "static/media/magnet.png": "/portfolio/static/media/magnet.bb52d79117666d963c02.png",
     "static/media/oportunpreview.png": "/portfolio/static/media/oportunpreview.8c2f9a372ac44992a6ef.png",
     "static/media/TT Commons Regular.otf": "/portfolio/static/media/TT Commons Regular.ae5bbab36817d6276df8.otf",
@@ -11,11 +11,11 @@
     "static/media/demex.svg": "/portfolio/static/media/demex.4a9afd3e0aff5bc74f4f90e9c184e58f.svg",
     "index.html": "/portfolio/index.html",
     "static/media/menu.svg": "/portfolio/static/media/menu.f5ff548ffd01582dda71899021f7a279.svg",
-    "main.32c551a0.css.map": "/portfolio/static/css/main.32c551a0.css.map",
-    "main.3d78b7e0.js.map": "/portfolio/static/js/main.3d78b7e0.js.map"
+    "main.0f8ce521.css.map": "/portfolio/static/css/main.0f8ce521.css.map",
+    "main.17854a89.js.map": "/portfolio/static/js/main.17854a89.js.map"
   },
   "entrypoints": [
-    "static/css/main.32c551a0.css",
-    "static/js/main.3d78b7e0.js"
+    "static/css/main.0f8ce521.css",
+    "static/js/main.17854a89.js"
   ]
 }
