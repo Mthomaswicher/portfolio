@@ -48,6 +48,18 @@ nav .me-auto {
   color: #f2f5f8;
 }
 
+@media (max-width: 500px) {
+  .hero-header {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 500px) {
+  .hero-subtext {
+    font-size: 16px !important;
+  }
+}
+
 .hero-subtext {
   font-size: 24px;
   color: #f2f5f8;
@@ -56,9 +68,14 @@ nav .me-auto {
 .row {
   padding-left: 64px !important;
   padding-right: 64px !important;
-  padding-top: 64px;
   padding-bottom: 64px;
-  margin-bottom: 64px;
+}
+
+@media (max-width: 990px) {
+  .row {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
 }
 
 .colortext {
@@ -75,12 +92,34 @@ nav .me-auto {
   height: 500px !important;
 }
 
+@media (max-width: 500px) {
+  .hero-row svg {
+    display: none;
+  }
+}
+
 .past-header {
   font-size: 64px;
   font-weight: 800;
   text-align: center;
   color: #f2f5f8;
   margin-bottom: 40px;
+}
+
+@media (max-width: 500px) {
+  .past-header {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 500px) {
+  .past-img {
+    height: 24px !important;
+  }
+}
+
+.navbar-toggler-icon {
+  color: white !important;
 }
 
 .past-img {
@@ -152,14 +191,4 @@ nav .me-auto {
   height: 400px !important;
   width: auto !important;
   top: 1190px;
-}
-
-.typewriter {
-  color: white;
-  font-size: 64px;
-}
-
-.typewriter:after {
-  content: ' Matt 👋🏽';
-  color: #287dfc;
 }
