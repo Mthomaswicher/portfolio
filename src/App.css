@@ -175,11 +175,6 @@ nav .me-auto {
   color: #287dfc;
 }
 
-.project-container-row svg {
-  height: 400px !important;
-  width: auto !important;
-}
-
 .card-title {
   color: #f2f5f8 !important;
   font-size: 32px !important;
@@ -196,4 +191,19 @@ nav .me-auto {
 
 .rough-annotation {
   color: #287dfc !important;
+}
+
+.nav-container {
+  padding: 0px !important;
+}
+
+.offcanvas {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+@media (max-width: 500px) {
+  .project-container-row div {
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+  }
 }

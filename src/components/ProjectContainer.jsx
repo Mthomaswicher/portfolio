@@ -20,9 +20,8 @@ const ProjectContainer = () => {
 
   return (
     <>
-      <Row>
-        <h1 className="section-header">My Recent Projects</h1>
-      </Row>
+      <h1 className="section-header">My Recent Projects</h1>
+      <div className="absolute-animation"></div>
       <Row className="project-container-row">
         <Row>
           <Col md={12} lg={6}>
