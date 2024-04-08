@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Lottie from 'react-lottie';
 import * as animationData from '../assets/wave.json';
 import { Row, Col } from 'react-bootstrap';
+import { annotate } from 'https://unpkg.com/rough-notation?module';
 
 const HomeHero = () => {
   const defaultOptions = {
@@ -12,12 +13,17 @@ const HomeHero = () => {
       preserveAspectRatio: 'xMidYMid slice',
     },
   };
+  useEffect(() => {
+    const e = document.querySelector('span');
+    const annotation = annotate(e, { type: 'underline' });
+    annotation.show();
+  }, []);
 
   return (
     <Row className="hero-row">
       <Col className="hero-text-container" lg={5}>
         <span className="hero-header">
-          Hi, I am <span className="colortext">Matt</span> 👋🏽
+          Hi, I am <span id="colortext">Matt</span> 👋🏽
         </span>
         <br></br>
         <span className="hero-subtext">

@@ -83,7 +83,7 @@ nav .me-auto {
   }
 }
 
-.colortext {
+#colortext {
   color: #287dfc;
 }
 
@@ -96,6 +96,13 @@ nav .me-auto {
 @media (max-width: 500px) {
   .hero-row svg {
     display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .past-block {
+    padding-top: 24px;
+    padding-bottom: 24px;
   }
 }
 
@@ -185,4 +192,8 @@ nav .me-auto {
 
 .navbar-toggler:focus {
   box-shadow: none !important;
+}
+
+.rough-annotation {
+  color: #287dfc !important;
 }
