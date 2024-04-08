@@ -9,14 +9,14 @@ const PastBlock = () => {
     <Row className="past-block">
       <span className="past-header">It has been a journey</span>
       <div className="past-img-container">
-        <Col md={12} lg={'auto'}>
+        <Col className="img-holder" md={12} lg={'auto'}>
           <img className="past-img" src={demex}></img>
         </Col>
-        <Col md={12} lg={'auto'}>
+        <Col className="img-holder" md={12} lg={'auto'}>
           {' '}
           <img className="past-img" src={oportun}></img>
         </Col>
-        <Col md={12} lg={'auto'}>
+        <Col className="img-holder" md={12} lg={'auto'}>
           <img className="past-img" src={brg}></img>
         </Col>
       </div>

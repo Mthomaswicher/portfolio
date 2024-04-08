@@ -23,26 +23,23 @@ const ProjectContainer = () => {
       <Row>
         <h1 className="section-header">My Recent Projects</h1>
       </Row>
-      <div className="absolute-animation"></div>
       <Row className="project-container-row">
-        <Container>
-          <Row>
-            <Col md={12} lg={6}>
-              <ProjectPreview
-                image={oportunpreview}
-                title={'Web3 Powered Remittances'}
-                text="Filling the gaps and solving pain-points for current remittance solutions"
-              />
-            </Col>
-            <Col md={12} lg={6}>
-              <ProjectPreview
-                image={oportunpreview}
-                title={'Web3 Powered Remittances'}
-                text="Filling the gaps and solving pain-points for current remittance solutions"
-              />
-            </Col>
-          </Row>
-        </Container>
+        <Row>
+          <Col md={12} lg={6}>
+            <ProjectPreview
+              image={oportunpreview}
+              title={'Web3 Powered Remittances'}
+              text="Filling the gaps and solving pain-points for current remittance solutions"
+            />
+          </Col>
+          <Col md={12} lg={6}>
+            <ProjectPreview
+              image={oportunpreview}
+              title={'Web3 Powered Remittances'}
+              text="Filling the gaps and solving pain-points for current remittance solutions"
+            />
+          </Col>
+        </Row>
       </Row>
     </>
   );

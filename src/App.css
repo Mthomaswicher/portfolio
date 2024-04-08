@@ -23,7 +23,7 @@ nav div {
   margin-right: 64px !important;
 }
 
-@media (min-width: 500px) {
+@media (max-width: 500px) {
   nav div {
     margin-left: auto !important;
     margin-right: auto !important;
@@ -87,11 +87,22 @@ nav .me-auto {
   height: 40px;
   width: auto;
   margin: 20px;
+  text-align: center;
 }
 
 .past-img-container {
   justify-content: space-evenly;
   display: flex;
+}
+
+@media (max-width: 990px) {
+  .past-img-container {
+    display: grid;
+  }
+}
+
+.img-holder {
+  text-align: center;
 }
 
 .hero-row svg {
@@ -141,22 +152,6 @@ nav .me-auto {
   height: 400px !important;
   width: auto !important;
   top: 1190px;
-}
-
-@media (max-width: 800px) {
-  .absolute-animation svg {
-    height: 250px !important;
-    width: auto !important;
-    top: 1600px;
-  }
-}
-
-@media (max-width: 1200px) {
-  .absolute-animation svg {
-    height: 250px !important;
-    width: auto !important;
-    top: 1300px;
-  }
 }
 
 .typewriter {

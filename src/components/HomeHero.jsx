@@ -29,7 +29,7 @@ const HomeHero = () => {
           access to financial inclusivity with the use of Web3 and AI.
         </span>
       </Col>
-      <Col md={'auto'} lg={7}>
+      <Col lg={'auto'}>
         <Lottie options={defaultOptions} />
       </Col>
     </Row>
