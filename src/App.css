@@ -50,6 +50,7 @@ nav .me-auto {
   font-size: 64px;
   font-weight: 800;
   color: #f2f5f8;
+  text-align: center;
 }
 
 @media (max-width: 500px) {
@@ -207,3 +208,46 @@ nav .me-auto {
     overflow-x: scroll;
   }
 }
+
+/*Footer*/
+
+.footer {
+  align-items: center;
+}
+
+.social {
+  width: 48px !important;
+  height: auto !important;
+  margin: 16px;
+}
+
+.social-container {
+  display: flex;
+  justify-content: center;
+  margin: 16px;
+  align-items: center;
+}
+
+#myVideo {
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+video {
+  width: -webkit-fill-available;
+}
+/* 
+.video-card {
+  background: rgba(0, 0, 0, 0.5);
+} */

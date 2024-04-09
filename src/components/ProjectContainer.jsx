@@ -7,6 +7,7 @@ import magnet from '../assets/magnet.png';
 import Col from 'react-bootstrap/Col';
 import animationData from '../assets/ux.json';
 import Lottie from 'react-lottie';
+import VideoProject from './VideoProject';
 
 const ProjectContainer = () => {
   const defaultOptions = {
@@ -36,6 +37,12 @@ const ProjectContainer = () => {
               image={oportunpreview}
               title={'Web3 Powered Remittances'}
               text="Filling the gaps and solving pain-points for current remittance solutions"
+            />
+          </Col>
+          <Col lg={12}>
+            <VideoProject
+              title="The Demex Climate Center"
+              text="Helping businesses, large and small, save money from weather-related events."
             />
           </Col>
         </Row>

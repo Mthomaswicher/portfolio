@@ -6,7 +6,7 @@ import { annotate } from 'https://unpkg.com/rough-notation?module';
 
 const HomeHero = () => {
   const defaultOptions = {
-    loop: true,
+    loop: false,
     autoplay: true,
     animationData: animationData,
     rendererSettings: {
