@@ -6,7 +6,7 @@ import PortfolioContainer from './components/PortfolioContainer';
 import HomeHero from './components/HomeHero';
 import PastBlock from './components/PastBlock';
 import ProjectContainer from './components/ProjectContainer';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import ProjectPreview from './components/ProjectPreview';
 
@@ -14,11 +14,11 @@ function App(content) {
   return (
     <PortfolioContainer
       content={
-        <BrowserRouter>
+        <HashRouter>
           <Routes>
-            <Route path="Home" element={<Home />} />
+            <Route path="home" element={<Home />} />
           </Routes>
-        </BrowserRouter>
+        </HashRouter>
       }
     />
   );
