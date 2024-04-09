@@ -202,13 +202,6 @@ nav .me-auto {
   background-color: rgba(255, 255, 255, 0.2) !important;
 }
 
-@media (max-width: 500px) {
-  .project-container-row div {
-    flex-wrap: nowrap;
-    overflow-x: scroll;
-  }
-}
-
 /*Footer*/
 
 .footer {
