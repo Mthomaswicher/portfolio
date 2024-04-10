@@ -8,6 +8,8 @@ import matthew from '../assets/matthew.png';
 import Lottie from 'react-lottie';
 import * as animationData from '../assets/why.json';
 
+console.log(process.env.REACT_APP_API_KEY);
+
 const Chatbot = () => {
   const prompt = 'What is the capital of France?';
   const endpoint = 'https://api.openai.com/v1/chat/completions';
@@ -18,7 +20,7 @@ const Chatbot = () => {
   const [loading, setLoading] = useState(false);
 
   const defaultOptions = {
-    loop: true,
+    loop: false,
     autoplay: true,
     animationData: animationData,
     rendererSettings: {
