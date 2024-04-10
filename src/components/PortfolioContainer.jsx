@@ -12,6 +12,7 @@ import { annotate } from 'https://unpkg.com/rough-notation?module';
 import gmail from '../assets/gmail.svg';
 import linkedin from '../assets/linkedin.png';
 import insta from '../assets/insta.png';
+import Chatbot from './Chatbot';
 
 const PortfolioContainer = (props) => {
   useEffect(() => {
@@ -85,6 +86,7 @@ const PortfolioContainer = (props) => {
           </Col>
           <Col lg={4}></Col>
         </Row>
+        <Chatbot />
       </Container>
     </>
   );
