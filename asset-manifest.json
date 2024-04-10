@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.5b9e4a98.css",
-    "main.js": "/portfolio/static/js/main.7774eaf3.js",
+    "main.css": "/portfolio/static/css/main.c73ab2ec.css",
+    "main.js": "/portfolio/static/js/main.d9d79fcc.js",
     "static/media/demex.mp4": "/portfolio/static/media/demex.9e0b063bfe1d7d259c2e.mp4",
+    "static/media/matthew.png": "/portfolio/static/media/matthew.a05631b38f069b38305b.png",
     "static/media/magnet.png": "/portfolio/static/media/magnet.bb52d79117666d963c02.png",
     "static/media/oportunpreview.png": "/portfolio/static/media/oportunpreview.8c2f9a372ac44992a6ef.png",
     "static/media/TT Commons Regular.otf": "/portfolio/static/media/TT Commons Regular.ae5bbab36817d6276df8.otf",
@@ -15,11 +16,11 @@
     "static/media/gmail.svg": "/portfolio/static/media/gmail.fd27dc1b2a16c00121cb5bea39f41e59.svg",
     "index.html": "/portfolio/index.html",
     "static/media/menu.svg": "/portfolio/static/media/menu.f5ff548ffd01582dda71899021f7a279.svg",
-    "main.5b9e4a98.css.map": "/portfolio/static/css/main.5b9e4a98.css.map",
-    "main.7774eaf3.js.map": "/portfolio/static/js/main.7774eaf3.js.map"
+    "main.c73ab2ec.css.map": "/portfolio/static/css/main.c73ab2ec.css.map",
+    "main.d9d79fcc.js.map": "/portfolio/static/js/main.d9d79fcc.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b9e4a98.css",
-    "static/js/main.7774eaf3.js"
+    "static/css/main.c73ab2ec.css",
+    "static/js/main.d9d79fcc.js"
   ]
 }
